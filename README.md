@@ -1,10 +1,7 @@
 # Python 401 Pre-Work
-=======================
-
 ## Unit 3: PygLatin - Part 10
 -------------------------------
 
-'''
 pyg = 'ay'
 
 original = raw_input('Enter a word: ')
@@ -21,7 +18,7 @@ else:
 ## Unit 4: Taking a Vacation - part 7
 ---------------------------------------
 
-'''
+
 def hotel_cost(nights):
   return 140 * nights
 
@@ -47,11 +44,13 @@ def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
 
 print trip_cost("Los Angeles", 5, 600)
-'''
+
 
 ## Unit 5: A Day at the Supermarket - part 12
------------------------------------------------shopping_list = ["banana", "orange", "apple"]
-'''
+-----------------------------------------------
+
+shopping_list = ["banana", "orange", "apple"]
+
 stock = {
   "banana": 6,
   "apple": 0,
@@ -73,12 +72,10 @@ def compute_bill(food):
       total = total + prices[item]
       stock[item] = stock[item] - 1
   return total
-'''
 
 ## Unit 6: Student Becomes the Teacher - part 9
 -------------------------------------------------
 
-'''
 lloyd = {
   "name": "Lloyd",
   "homework": [90.0, 97.0, 75.0, 92.0],
@@ -134,12 +131,10 @@ students = [lloyd, alice, tyler]
 class_avg = get_class_average(students)
 print class_avg
 print get_letter_grade(class_avg)
-'''
 
 ## Unit 7: Battleship! - part 18
 ----------------------------------
 
-'''
 from random import randint
 
 board = []
@@ -184,4 +179,3 @@ for turn in range(4):
     if (turn == 3):
       print "Game Over"
     print_board(board)
-'''
