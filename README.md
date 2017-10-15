@@ -13,11 +13,10 @@ if len(original) > 0 and original.isalpha():
   print new_word
 else:
   print 'empty'
-'''
+
 
 ## Unit 4: Taking a Vacation - part 7
 ---------------------------------------
-
 
 def hotel_cost(nights):
   return 140 * nights
@@ -44,7 +43,6 @@ def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
 
 print trip_cost("Los Angeles", 5, 600)
-
 
 ## Unit 5: A Day at the Supermarket - part 12
 -----------------------------------------------
